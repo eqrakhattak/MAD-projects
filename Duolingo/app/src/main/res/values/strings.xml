@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Duolingo</string>
+    <string name="_3d_room_layout">Room Controls</string>
+    <string name="all_off">All Off</string>
+    <string name="calendar">Calendar</string>
+    <string name="clock">Clock</string>
+    <string name="news">News</string>
+    <string name="weather">Weather</string>
+    <string name="vr_assistant">VR\nAssistant</string>
+    <string name="room_service">Hotel Services</string>
+    <string name="logout">Logout</string>
+</resources>
