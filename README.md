@@ -1,7 +1,7 @@
-# Duolingo-like layout for practicing constraint Layout
+# Constraint layout on a Smart House app
 
-![Constraint Layout App Screenshot](https://github.com/eqrakhattak/duolingo-like/blob/main/ConstSreenshot.jpg?raw=true)
+![ConstScreenshot](https://user-images.githubusercontent.com/60545262/139598380-98d5a7bb-9d9f-4abc-8522-aecd5effce58.png)
 
 # Calculator app
 
-![Calculator App Screenshot](duolingo-like/Calculator/app/src/main/res/drawable-v24/CalcScreenshot.png)
+![CalcScreenshot](https://user-images.githubusercontent.com/60545262/139598307-f0401909-1884-4f96-846c-55e8b2d56302.png)
