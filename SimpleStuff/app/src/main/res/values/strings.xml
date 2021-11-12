@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SimpleStuff</string>
+    <string name="credentials_key">credentials_key</string>
 </resources>

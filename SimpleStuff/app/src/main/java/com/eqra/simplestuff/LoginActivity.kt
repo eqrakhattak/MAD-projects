@@ -1,11 +1,14 @@
 package com.eqra.simplestuff
 
+import android.content.Context
+import android.content.Intent
 import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.preference.PreferenceManager
 import android.util.Patterns
 import com.eqra.simplestuff.databinding.ActivityLoginBinding
+import kotlin.math.log
 
 class LoginActivity : AppCompatActivity() {
 
@@ -21,7 +24,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun initViews() {
 
-        binding.buttonLogin.setOnClickListener { }
+        binding.buttonLogin.setOnClickListener { login() }
     }
 
     private fun login() {
@@ -54,17 +57,31 @@ class LoginActivity : AppCompatActivity() {
                 editTextPassword.requestFocus()
                 return
             }
+            setDefaults(email, password)
         }
     }
 
-//    fun setDefaults(name: String, email: String) {
-//
-//        val preferences = SharedPreferences.getDefaultSharedPreferences(this)
-//        val editor = preferences.edit()
-//        editor.putString("name", name)
-//        editor.putString("email", email)
-//        editor.putBoolean("loggedIn", true)
-//        editor.apply()
-//        updateUI()
-//    }
+    private fun setDefaults(email: String, password: String) {
+
+        val sharedPref = getSharedPreferences(
+            getString(R.string.credentials_key), Context.MODE_PRIVATE
+        )
+        with(sharedPref.edit()) {
+            putString("email", email)
+            putString("password", password)
+            putBoolean("loggedIn", true)
+            apply()
+
+            updateUI()
+        }
+    }
+
+    private fun updateUI() {
+
+        finish()
+        val intent = Intent(this@LoginActivity, MainActivity::class.java)
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
+        startActivity(intent)
+    }
 }
