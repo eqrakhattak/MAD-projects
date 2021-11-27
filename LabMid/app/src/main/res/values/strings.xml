@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LabMid</string>
+    <string name="credentials_key">credentials_key</string>
+</resources>
