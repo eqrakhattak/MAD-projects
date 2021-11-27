@@ -17,3 +17,7 @@
 ## (Lab Assignment # 2)
 
 ![image](https://user-images.githubusercontent.com/60545262/141482550-2fa0a948-e783-4c3f-a88f-8f2a3ff61074.png)
+
+# SignUp, Home and WebVIew
+## (Lab Mid)
+
