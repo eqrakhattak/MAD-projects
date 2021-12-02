@@ -22,3 +22,8 @@
 ## (Lab Mid)
 
 ![image](https://user-images.githubusercontent.com/60545262/144479386-4cca4ac1-0a0a-46a5-84bf-107cc3ddfa87.png)
+![image](https://user-images.githubusercontent.com/60545262/144519750-b4e33d79-3215-4a96-9374-420893b0d995.png)
+![image](https://user-images.githubusercontent.com/60545262/144519769-4b5263a7-f411-40a7-804e-66d311add8f6.png)
+![image](https://user-images.githubusercontent.com/60545262/144519959-aab88bed-7e98-4285-9058-c00d454a7bd5.png)
+![image](https://user-images.githubusercontent.com/60545262/144520016-97b4cad8-9e3d-4f5f-aa26-e575f6b878e6.png)
+
