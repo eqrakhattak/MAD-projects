@@ -1,6 +1,4 @@
 package com.eqra.intents
-
-import android.R
 import android.content.Intent
 import android.graphics.Bitmap
 import android.os.Bundle
@@ -12,8 +10,11 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
+    val laibaIntent = findViewById<Button>(R.id.laBtn)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        laibaIntent.setOnClickListener {
+            val it = Intent(this, Laiba::class.java)
     }
 }
