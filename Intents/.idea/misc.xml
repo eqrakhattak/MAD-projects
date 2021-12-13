@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Laiba/Documents/MAD-projects/Intents/app/src/main/res/layout/activity_google_map.xml" value="0.1" />
+        <entry key="..\:/Users/Laiba/Documents/MAD-projects/Intents/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Laiba/Documents/MAD-projects/Intents/app/src/main/res/layout/activity_send_email.xml" value="0.1" />
         <entry key="..\:/unicrap/MAD-projects/Intents/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
       </map>
     </option>

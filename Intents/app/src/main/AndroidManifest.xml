@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intents">
         <activity
+            android:name=".google_map"
+            android:exported="false" />
+        <activity
+            android:name=".send_email"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
