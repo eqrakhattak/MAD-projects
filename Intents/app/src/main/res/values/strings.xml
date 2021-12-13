@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Intents</string>
+    <string name="send_email">Send Email</string>
+    <string name="map">Open Google Map</string>
+    <string name="body">Message</string>
+    <string name="subject">Subject</string>
+    <string name="to">To:</string>
+    <string name="enter_receiver_mail">Enter receiver mail</string>
+    <string name="launch_maps">Launch Maps</string>
 </resources>

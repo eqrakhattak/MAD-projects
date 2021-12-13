@@ -3,9 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< HEAD
         <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/MAD-projects/Intents/app/src/main/res/layout/activity_add_note.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/MAD-projects/Intents/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/ayman/OneDrive/Documents/GitHub/MAD-projects/Intents/app/src/main/res/layout/activity_phonecall.xml" value="0.12708333333333333" />
+=======
+        <entry key="..\:/Users/Laiba/Documents/MAD-projects/Intents/app/src/main/res/layout/activity_google_map.xml" value="0.1" />
+        <entry key="..\:/Users/Laiba/Documents/MAD-projects/Intents/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Laiba/Documents/MAD-projects/Intents/app/src/main/res/layout/activity_send_email.xml" value="0.1" />
+>>>>>>> 8415349d81e2a9a805b55b8545a30fa538bd8576
         <entry key="..\:/unicrap/MAD-projects/Intents/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
       </map>
     </option>

@@ -6,27 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/sendEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:text="Intent1"
         app:layout_constraintBottom_toBottomOf="@+id/button2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+=======
+>>>>>>> 8415349d81e2a9a805b55b8545a30fa538bd8576
 
+        android:text="@string/send_email"
+        app:layout_constraintBottom_toTopOf="@+id/btnGglMap"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnGglMap"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intent2"
-        app:layout_constraintBottom_toBottomOf="@+id/button3"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.5"
+        android:text="@string/map"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button1" />
+        app:layout_constraintTop_toBottomOf="@+id/sendEmail" />
 
     <Button
         android:id="@+id/button3"
@@ -37,14 +48,18 @@
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+<<<<<<< HEAD
         app:layout_constraintStart_toEndOf="@+id/note_btn"
         app:layout_constraintTop_toTopOf="@+id/button2" />
+=======
+        app:layout_constraintStart_toEndOf="@+id/btnGglMap"
+        app:layout_constraintTop_toTopOf="@+id/btnGglMap" />
+>>>>>>> 8415349d81e2a9a805b55b8545a30fa538bd8576
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="broadcast"
         android:text="Intent 4"
         app:layout_constraintBottom_toBottomOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +72,6 @@
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="broadcast"
         android:text="Intent 5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

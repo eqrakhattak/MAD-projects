@@ -12,9 +12,13 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var sendEmailBtn : Button
+    private lateinit var openMapBtn : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+<<<<<<< HEAD
         val btn1:Button = findViewById(R.id.button3)
         btn1.setOnClickListener{
             val intent= Intent(this,phonecall::class.java)
@@ -30,4 +34,14 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+=======
+        sendEmailBtn = findViewById<Button>(R.id.sendEmail)
+        sendEmailBtn.setOnClickListener {
+            val it = Intent(this, send_email::class.java)
+        }
+        openMapBtn = findViewById(R.id.btnGglMap)
+        openMapBtn.setOnClickListener {
+            val mapAct = Intent(this, google_map::class.java)
+        }
+>>>>>>> 8415349d81e2a9a805b55b8545a30fa538bd8576
     }
