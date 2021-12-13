@@ -25,15 +25,5 @@ class MainActivity : AppCompatActivity() {
         openMapBtn.setOnClickListener {
             val mapAct = Intent(this, google_map::class.java)
         }
-        val btn1:Button = findViewById(R.id.button3)
-        btn1.setOnClickListener{
-            val intent= Intent(this,phonecall::class.java)
-            startActivity(intent)
-        }
-        val btn2:Button = findViewById(R.id.button4)
-        btn2.setOnClickListener{
-            val intent= Intent(this,AddNote::class.java)
-            startActivity(intent)
-        }
     }
 }
