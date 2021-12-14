@@ -27,3 +27,7 @@
 ![image](https://user-images.githubusercontent.com/60545262/144519959-aab88bed-7e98-4285-9058-c00d454a7bd5.png)
 ![image](https://user-images.githubusercontent.com/60545262/144520016-97b4cad8-9e3d-4f5f-aa26-e575f6b878e6.png)
 
+# Intents: Send an email, Open Maps, Make a phone call, Create a note, Load a URL, Add a Calender event
+## (Theory Assignment # 3)
+
+![image](https://user-images.githubusercontent.com/60545262/146083246-cb83c23d-aa33-4f1e-b2a3-82e84885fd11.png)
