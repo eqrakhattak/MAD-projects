@@ -38,7 +38,7 @@
         android:text="Make a phone call"
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/btnGglMap"
         app:layout_constraintTop_toTopOf="@+id/btnGglMap" />
 
