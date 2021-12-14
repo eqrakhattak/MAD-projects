@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.eqra.intents">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,19 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Intents">
         <activity
+            android:name=".AddEventActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoadUrlActivity"
+            android:exported="true" />
+        <activity
             android:name=".google_map"
             android:exported="false" />
         <activity
             android:name=".send_email"
             android:exported="false" />
         <activity
+            android:name=".AddNote"
+            android:exported="false" />
+        <activity
+            android:name=".phonecall"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.google.android.gms.actions.CREATE_NOTE" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="*/*" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -28,12 +28,12 @@ class send_email : AppCompatActivity() {
                 putExtra(Intent.EXTRA_SUBJECT, subject)
                 putExtra(Intent.EXTRA_TEXT, bodyMsg)
             }
-            if (intent.resolveActivity(packageManager) != null) {
-                startActivity(intent)
-            }
-            else{
-                Toast.makeText(this@send_email,"Required App is not installed", Toast.LENGTH_SHORT).show()
-            }
+//            if (intent.resolveActivity(packageManager) != null) {
+            startActivity(intent)
+//            }
+//            else{
+//                Toast.makeText(this@send_email,"Required App is not installed", Toast.LENGTH_SHORT).show()
+//            }
         }
 
     }

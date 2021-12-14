@@ -26,8 +26,6 @@
         android:text="@string/map"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
-
-        app:layout_constraintHorizontal_bias="0.541"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sendEmail" />
 
@@ -35,35 +33,45 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Make a phone call"
+        android:text="@string/make_a_phone_call"
         app:layout_constraintBottom_toBottomOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnGglMap"
+        app:layout_constraintStart_toStartOf="@+id/btnGglMap"
         app:layout_constraintTop_toTopOf="@+id/btnGglMap" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create a note"
-        app:layout_constraintBottom_toBottomOf="@+id/button5"
+        android:text="@string/create_a_note"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLoadUrl"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/btnLoadUrl"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button3" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnLoadUrl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intent 5"
+        android:text="@string/load_a_url"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button4"
-        app:layout_constraintTop_toTopOf="@+id/button4"
-        />
+        app:layout_constraintTop_toTopOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/btnAddEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_event"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/btnLoadUrl" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,18 @@
     <string name="body">Message</string>
     <string name="subject">Subject</string>
     <string name="to">To:</string>
-    <string name="enter_receiver_mail">Enter receiver mail</string>
+    <string name="enter_receiver_mail">Enter receiver mail (separate by commas)</string>
     <string name="launch_maps">Launch Maps</string>
+    <string name="note">Note</string>
+    <string name="create_a_note">Create a note</string>
+    <string name="phone_no">Phone no.</string>
+    <string name="call">CALL</string>
+    <string name="make_a_phone_call">Make a phone call</string>
+    <string name="load_a_url">Load a URL</string>
+    <string name="proceed">Proceed</string>
+    <string name="website_url">Website Url</string>
+    <string name="https_www_google_com">https://www.google.com</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+    <string name="add_event">Add Event</string>
 </resources>
