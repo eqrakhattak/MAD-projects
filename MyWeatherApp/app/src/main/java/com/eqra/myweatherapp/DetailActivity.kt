@@ -1,6 +1,7 @@
 package com.eqra.myweatherapp
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -22,9 +23,14 @@ class DetailActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val url = intent.getStringExtra("url")
+        val webViewUrl = intent.getStringExtra("webView")
 
         if (url != null) {
             initViews(url)
+        }
+
+        if (webViewUrl != null) {
+            initListeners(webViewUrl)
         }
     }
 
@@ -66,5 +72,14 @@ class DetailActivity : AppCompatActivity() {
         )
 
         requestQueue.add(jsonObjectRequest)
+    }
+
+    private fun initListeners(webviewUrl: String) {
+
+        binding.llDetails.setOnClickListener {
+            val intent = Intent(this, WebViewActivity::class.java)
+            intent.putExtra("webView", webviewUrl)
+            startActivity(intent)
+        }
     }
 }

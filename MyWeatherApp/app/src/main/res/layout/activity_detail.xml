@@ -315,6 +315,7 @@
                     android:layout_height="wrap_content" />
 
                 <LinearLayout
+                    android:id="@+id/llDetails"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -336,7 +337,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/developed_by"
+                        android:text="@string/tap_for"
                         android:textColor="#000000"
                         android:textSize="12sp" />
 
@@ -344,7 +345,7 @@
                         android:id="@+id/about"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/eqra"
+                        android:text="@string/more_details"
                         android:textColor="#000000"
                         android:textSize="14sp" />
                 </LinearLayout>

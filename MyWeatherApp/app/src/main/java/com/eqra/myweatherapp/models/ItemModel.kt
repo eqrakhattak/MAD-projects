@@ -1,3 +1,3 @@
 package com.eqra.myweatherapp.models
 
-data class ItemModel(val name: String, val url: String)
+data class ItemModel(val name: String, val url: String, val webView: String)
