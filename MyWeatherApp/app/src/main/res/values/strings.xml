@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyWeatherApp</string>
+    <string name="credentials_key">credentials_key</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_credentials">Enter Credentials</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="city_name">City Name</string>
+    <string name="weather">Weather</string>
+    <string name="date">18 July 2020, 12:02 AM</string>
+    <string name="description">Clear Sky</string>
+    <string name="temp">29°C</string>
+    <string name="min_temp">Min Temp: 22°C</string>
+    <string name="max_temp">Max Temp: 35°C</string>
+    <string name="feels_like">Feels Like</string>
+    <string name="feels_like_temp">31°C</string>
+    <string name="wind_direction">Wind Direction</string>
+    <string name="wind_direction_value">140°</string>
+    <string name="wind">Wind</string>
+    <string name="wind_value">4.1</string>
+    <string name="pressure">Pressure</string>
+    <string name="pressure_value">1003</string>
+    <string name="humidity">Humidity</string>
+    <string name="humidity_value">74</string>
+    <string name="developed_by">Developed By</string>
+    <string name="eqra">Eqra</string>
+    <string name="something_went_wrong">Something went wrong</string>
+</resources>
