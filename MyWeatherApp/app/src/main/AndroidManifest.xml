@@ -27,6 +27,10 @@
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <service
+            android:name=".services.MyService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

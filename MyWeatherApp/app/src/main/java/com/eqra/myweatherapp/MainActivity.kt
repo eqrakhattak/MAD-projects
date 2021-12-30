@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.eqra.myweatherapp.adapters.ItemAdapter
 import com.eqra.myweatherapp.databinding.ActivityMainBinding
 import com.eqra.myweatherapp.models.ItemModel
+import com.eqra.myweatherapp.services.MyService
 
 class MainActivity : AppCompatActivity(), ItemAdapter.ItemClicker {
 
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity(), ItemAdapter.ItemClicker {
     }
 
     private fun initViews() {
+
+        val intent = Intent(this, MyService::class.java)
+        startService(intent)
 
         mList.add(ItemModel("Islamabad", "http://api.openweathermap.org/data/2.5/weather?q=Islamabad&units=metric&appid=8f4b209228e4ff1dc3443bf124f3fe95"))
         mList.add(ItemModel("Attock", "http://api.openweathermap.org/data/2.5/weather?q=Attock&units=metric&appid=8f4b209228e4ff1dc3443bf124f3fe95"))
